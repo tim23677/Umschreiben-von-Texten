@@ -470,6 +470,7 @@ Diese Skills wurden früher getrennt gepflegt und liegen jetzt als Regelquellen 
 | `references/merged/humanizer-skill/RULES.md` | Guardrails, Ausgabemodi, Muster-Index; dazu `references/patterns.md`, `voice-and-facts.md`, `search-intent.md`, `examples/before-after.md` |
 | `references/merged/unslop/RULES.md` | Kontextprüfung statt Phrasenliste: erst die Quelle klären, dann überarbeiten |
 | `references/merged/no-ai-slop/RULES.md`, `references/merged/claude-humanizer/RULES.md` | knappe Revisionsregeln (nur nötige Eingriffe, Bedeutungsdrift prüfen) |
+| `references/merged/hannsxpeter-humanizer/RULES.md` | Stimm-Abgleich über Textprobe oder `VOICE.md`, Dichte-Vorprüfung, Selbstprüfung mit Veto; dazu `references/tell-patterns.md` (32 Muster), `do-not-flag.md` (Schutz vor Überbearbeitung), `text-hygiene.md`. MIT, Quelle: hannsxpeter/humanizer |
 
 Bei Konflikten gelten die Leitplanken oben, danach die Regeln dieser Datei, danach die Regelquellen.
 

@@ -43,6 +43,8 @@ java -cp languagetool-server.jar org.languagetool.server.HTTPServer --port 8081
 
 Das Skript `scripts/lt_check.py` nutzt `LT_URL` (Standard `http://localhost:8081/v2`). Die öffentliche API `https://api.languagetool.org/v2` sendet Text an einen Dritten und ist begrenzt. Sie wird nur mit ausdrücklicher Erlaubnis genutzt. Ist kein Server erreichbar, sagen die Skills das offen und prüfen nicht heimlich anders.
 
+**Unsichtbare Zeichen** prüft `python3 -I scripts/hygiene_check.py DATEI` (nur lesend, Exit 1 bei Funden).
+
 **Vale** (für `vale-*`). Das Programm `vale` muss installiert sein, Einrichtung über `vale-setup`. Hook und kostenpflichtiger MCP-Server aus `vale-cli/agent-tools` sind bewusst nicht installiert.
 
 ## Regeln für alle Skills
@@ -57,3 +59,5 @@ Das Skript `scripts/lt_check.py` nutzt `LT_URL` (Standard `http://localhost:8081
 - Beim Anlegen oder Ändern einer Beschreibung prüfen, dass kein anderer Skill denselben Trigger hat. Beschreibungen bleiben unter 1024 Zeichen.
 - Die zusammengeführten Humanizer-Regeln stehen unter `.agents/skills/humanizer/references/merged/`.
 - `skills-lock.json` hält die Quellen der installierten Skills. Lokal angepasste Beschreibungen (zum Beispiel bei `humanizer`, `tighten`, `shorten`, `kuerzen`, `critique`, `academic-writing`) nicht per `skills update` überschreiben lassen.
+
+- Welche externen Werkzeuge eingebaut sind und welche nicht (mit Begründung): `docs/WERKZEUGE.md`.
