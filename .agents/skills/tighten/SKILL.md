@@ -1,21 +1,6 @@
 ---
 name: tighten
-description: >-
-  Use this skill whenever someone hands you a piece of writing and wants it
-  actually fixed: tightened, cut for economy, given a rigorous line edit.
-  Essays, emails, board policies, internal docs, marketing copy, blog posts,
-  or any prose draft. Applies every edit automatically, no approval step
-  (at most a one-line calibration question on a long doc whose purpose is
-  ambiguous) — the right call whenever the ask is "just make this better"
-  and the user doesn't want to review each change. Trigger on phrases like "tighten this",
-  "clean this up", "fix this", "edit this for economy", "make this leaner",
-  "cut the fluff from this doc", "give this a line edit and apply it", "this
-  feels bloated, fix it", or "/tighten [file]". Works on a single document or
-  a batch in one run: several board policies, a folder of drafts, a stack of
-  emails. If the user wants feedback without the file being changed, use
-  `critique` instead. Don't reach for this when the request is to write
-  something new, brainstorm, or restructure unprompted; it edits prose that
-  already exists, it doesn't ghostwrite.
+description: "Use this skill whenever someone hands you a piece of writing and wants it actually fixed: tightened, cut for economy, given a rigorous line edit. Essays, emails, board policies, internal docs, marketing copy, blog posts, or any prose draft. Applies every edit automatically, no approval step, the right call when the ask is \"just make this better\". Trigger on \"tighten this\", \"clean this up\", \"edit this for economy\", \"make this leaner\", \"cut the fluff\", \"give this a line edit and apply it\", \"this feels bloated\", or \"/tighten [file]\". Works on one document or a batch. Feedback without changing the file: critique. Don't use it to write something new, brainstorm, or restructure unprompted; it edits existing prose. English business copy in information style (Ilyahov): shorten. German: kuerzen. Spelling and grammar: proofread-audit, proofread-fix."
 ---
 
 # Tighten a document

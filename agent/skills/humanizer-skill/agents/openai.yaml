@@ -1,4 +1,0 @@
-interface:
-  display_name: "Humanizer Skill"
-  short_description: "Rewrite AI-generated prose without changing its facts"
-  default_prompt: "Use $humanizer-skill to rewrite this text in my voice. Keep every number, name, date, and quote."

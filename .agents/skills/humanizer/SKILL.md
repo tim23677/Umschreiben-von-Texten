@@ -1,6 +1,6 @@
 ---
 name: humanizer
-description: Detects 55 AI writing patterns and rewrites text in five voice profiles so it reads like a specific human wrote it, with an optional 0-100 AI-tell score. Use when text sounds AI-generated or like a chatbot, when preparing a blog post, README, or LinkedIn post for publication, when auditing prose for AI tells, or when editing a Markdown file in place. Triggers on phrases like "humanize this", "make this sound less AI", "make this sound human", "remove AI tells", "does this read like ChatGPT", and "rewrite so it does not sound AI-generated". Pure Markdown, zero dependencies, no network calls.
+description: "Schreibt allgemeine und redaktionelle Texte (Blog, E-Mail, README, Social Posts, Essays) so um, dass sie nach einem bestimmten Menschen klingen. Erkennt und entfernt 55 KI-Muster, fünf Stimmprofile, optionaler Score. Die Modi rewrite und edit ändern den Text. Reines Prüfen ohne Änderung macht ai-text-pattern-review. Nicht für wissenschaftliche Arbeiten (humanizer-for-paper-writing), nicht für Rechtschreibung und Grammatik (proofread-audit, proofread-fix), nicht zum Kürzen (kuerzen, shorten, tighten). Trigger: 'humanize this', 'make this sound human', 'remove AI tells', 'klingt nach KI', 'klingt wie ChatGPT', 'menschlicher umschreiben'. Pure Markdown, keine Abhängigkeiten, keine Netzwerkzugriffe."
 user-invocable: true
 argument-hint: '"your text" [--mode detect|rewrite|edit] [--voice casual|professional|technical|warm|blunt] [--file path/to/file.md] [--aggressive] [--iterate N] [--score] [--purpose essay|email|marketing|technical|general] [--openings N] [--ignore-code] [--ignore-quotes]'
 allowed-tools:
@@ -15,6 +15,25 @@ allowed-tools:
 # Humanizer: Make Text Sound Like a Human Wrote It
 
 Take text that smells like a chatbot wrote it and rewrite it as a specific, opinionated human. Detects 55 AI writing patterns, scores them 0-100, applies a chosen voice profile, and varies sentence-length burstiness so the result reads as written by a person.
+
+## Einordnung und Leitplanken (Repo-Regeln)
+
+**Abgrenzung.** Dieser Skill schreibt allgemeine und redaktionelle Texte um. Er ist der Umschreibschritt der Pipeline (siehe `CLAUDE.md`).
+
+| Aufgabe | Skill |
+|---|---|
+| Nur prüfen, nichts ändern | `ai-text-pattern-review` (der Modus `detect` unten bleibt als interner Prüfschritt) |
+| Wissenschaftliche und technische Forschungstexte | `humanizer-for-paper-writing` |
+| Rechtschreibung und Grammatik | `proofread-audit`, `proofread-fix` |
+| Kürzen und Straffen | `kuerzen`, `shorten`, `tighten` |
+
+**Leitplanken** (aus den zusammengeführten Skills übernommen, sie gelten vor allen Regeln unten):
+
+1. Bedeutung, Fakten, Zahlen, Namen, Zitate, Quellen, Links und Unsicherheit bleiben unverändert.
+2. Keine erfundenen Beispiele, Belege, Anekdoten, Meinungen oder persönlichen Erlebnisse. Fehlt etwas Wesentliches, nachfragen.
+3. Keine absichtlichen Fehler, kein erzwungener Slang, keine künstlichen Unvollkommenheiten.
+4. Keine Optimierung gegen KI-Detektoren und kein Versprechen, ein Text bestehe einen Detektor oder sei "menschlich geschrieben". Satzlängen-Variation und Wortwahl dienen dem natürlichen Lesefluss, nicht der Täuschung. Der Score ist eine redaktionelle Dichte-Kennzahl und kein Urteil über Autorschaft.
+5. Nützliche Wiederholung, Gattungskonventionen und Struktur (Überschriften, Listen, Warnhinweise, Code) bleiben erhalten.
 
 ## Quick reference
 
@@ -437,6 +456,22 @@ Worked before/after examples for technical docs, blog posts, and LinkedIn are in
 ## Always-On Mode
 
 To make an agent write clean by default, not only when you invoke `/humanizer`, bake the core rules into its standing instructions. Ready copy-paste blocks for `CLAUDE.md`, `SOUL.md`, a system prompt, and ChatGPT custom instructions live in [`references/always-on-templates.md`](references/always-on-templates.md). This keeps the skill on-demand while giving power users an always-on option.
+
+---
+
+## Ergänzende Regelquellen (zusammengeführte Skills)
+
+Diese Skills wurden früher getrennt gepflegt und liegen jetzt als Regelquellen unter `references/merged/`. Bei Bedarf gezielt lesen, nicht alles laden:
+
+| Datei | Wofür |
+|---|---|
+| `references/merged/humanize-writing/RULES.md` | achtstufiger Überarbeitungsdurchgang, "Read it out loud"-Test, Liste dessen, was erhalten bleibt; dazu `references/ai-tells.md` |
+| `references/merged/humanize/RULES.md` | Stimm- und Genre-Entscheidung (technisch, juristisch, Referenz), Rangfolge der Funde, "Don't over-correct"; dazu `references/editing-checklists.md`, `ai-slop-tells.md`, `ogilvy-method.md`, `eval.md` zur Selbstprüfung |
+| `references/merged/humanizer-skill/RULES.md` | Guardrails, Ausgabemodi, Muster-Index; dazu `references/patterns.md`, `voice-and-facts.md`, `search-intent.md`, `examples/before-after.md` |
+| `references/merged/unslop/RULES.md` | Kontextprüfung statt Phrasenliste: erst die Quelle klären, dann überarbeiten |
+| `references/merged/no-ai-slop/RULES.md`, `references/merged/claude-humanizer/RULES.md` | knappe Revisionsregeln (nur nötige Eingriffe, Bedeutungsdrift prüfen) |
+
+Bei Konflikten gelten die Leitplanken oben, danach die Regeln dieser Datei, danach die Regelquellen.
 
 ---
 

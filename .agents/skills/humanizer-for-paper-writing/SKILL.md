@@ -1,15 +1,6 @@
 ---
 name: humanizer-for-paper-writing
-description: |
-  Remove signs of AI-generated writing from text, and apply technical writing
-  house style to research documents. Use when editing or reviewing text, and when
-  writing experiment reports, result tables, design documents, papers, or
-  summaries of findings. Detects and fixes patterns including inflated symbolism,
-  promotional language, superficial -ing analyses, vague attributions, em dash
-  overuse, rule of three, AI vocabulary words, passive voice, negative
-  parallelisms, and filler phrases. For technical documents it additionally
-  enforces standard terminology, neutral category names, and the removal of
-  metaphor, colloquialism, and anthropomorphism, in Chinese and English.
+description: "Nur für wissenschaftliche und technische Forschungstexte: Paper, Experimentberichte, Ergebnistabellen, Design-Dokumente, Zusammenfassungen von Befunden. Entfernt KI-Muster und wendet technischen Hausstil an (Standardterminologie, neutrale Kategorienamen, keine Metaphern oder Umgangssprache), Chinesisch und Englisch. Allgemeine Texte: humanizer. Reines Prüfen ohne Änderung: ai-text-pattern-review. Gliederung, Zitation und Reviewer-Antworten: academic-writing. Rechtschreibung: proofread-audit, proofread-fix."
 license: MIT
 metadata:
   version: "2.10.0"

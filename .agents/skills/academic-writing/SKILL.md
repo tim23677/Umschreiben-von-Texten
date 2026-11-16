@@ -1,13 +1,6 @@
 ---
 name: academic-writing
-description: >
-  Expert academic writing assistant for journal articles, theses, grant proposals, and book chapters.
-  Use when drafting, editing, structuring, fixing citations, writing reviewer responses, or reviewing
-  thesis manuscripts against supervisor feedback. Trigger for any formal scholarly text task, even
-  partial ones. Domain-specific checks for personality psychology and NLP: transformer methodology
-  (BERT, RoBERTa), XAI validity (Integrated Gradients, attribution faithfulness), psychometrics
-  (OCEAN/Big Five, reliability, construct validity, Pennebaker paradigm). Proactively flags NLP,
-  XAI, and psychometric issues even when not asked. Defaults to APA 7th; adapts to any style guide.
+description: "Expert academic writing assistant for journal articles, theses, grant proposals, and book chapters. Use when drafting, editing, structuring, fixing citations, writing reviewer responses, or reviewing thesis manuscripts against supervisor feedback. Trigger for any formal scholarly text task, even partial ones. Domain-specific checks for personality psychology and NLP: transformer methodology (BERT, RoBERTa), XAI validity (Integrated Gradients, attribution faithfulness), psychometrics (OCEAN/Big Five, reliability, construct validity, Pennebaker paradigm). Proactively flags NLP, XAI, and psychometric issues even when not asked. Defaults to APA 7th; adapts to any style guide. Gliederung, Zitation, Abschnittsaufbau und Reviewer-Antworten. KI-Muster in Forschungstexten entfernen: humanizer-for-paper-writing. Rechtschreibung und Grammatik: proofread-audit und proofread-fix."
 ---
 
 # Academic Writing Skill

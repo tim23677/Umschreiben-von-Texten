@@ -43,18 +43,6 @@
       "skillPath": "skills/escurca/SKILL.md",
       "computedHash": "3b19fd54b4910cc696938565a1514cd74bfcb840f227ad5c8880ce6fe07fe788"
     },
-    "humanize": {
-      "source": "ameenmo/humanize-skill",
-      "sourceType": "github",
-      "skillPath": "SKILL.md",
-      "computedHash": "97a0bfc35c6122d632e2fad6d1404b5e4b98e720603c859ee9440ee1fcd90d20"
-    },
-    "humanize-writing": {
-      "source": "jpeggdev/humanize-writing",
-      "sourceType": "github",
-      "skillPath": "SKILL.md",
-      "computedHash": "53a7e80438d56d64e2e1c42d6a4a9fd274aed21244d1b7380a974d1897317686"
-    },
     "humanizer": {
       "source": "Aboudjem/humanizer-skill",
       "sourceType": "github",
@@ -66,12 +54,6 @@
       "sourceType": "github",
       "skillPath": "SKILL.md",
       "computedHash": "2bc8e12862ca5af8cc876f6274881d45fc98e7ffab892cbe561e7085821698df"
-    },
-    "humanizer-skill": {
-      "source": "rockyandtom/humanizer-skill",
-      "sourceType": "github",
-      "skillPath": "SKILL.md",
-      "computedHash": "01f23e4ff35687cc867f2c1ca90cbb6f23d49dff1e8b45994b7df657e5c1604c"
     },
     "kuerzen": {
       "source": "iamursky/sokrati",

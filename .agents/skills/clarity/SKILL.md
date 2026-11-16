@@ -1,6 +1,6 @@
 ---
 name: clarity
-description: Draft, rewrite, review, or lint reader-facing prose for substance, clarity, and the author's voice without inventing facts or performing humanness.
+description: "Prüft Klarheit und Lesbarkeit von Texten: Substanz, Struktur, Satzlängen und Wortstatistik mit den Skripten prose_stats.py und strip_markdown.py. Auf ausdrücklichen Wunsch auch Entwurf und Überarbeitung nach den Modi write und rewrite, ohne Fakten zu erfinden und ohne Detektor-Versprechen. Trigger: 'Lesbarkeit prüfen', 'Satzlängen analysieren', 'lint my prose', 'prose stats', '/clarity'. Feedback ohne Änderung: critique. Straffen: tighten. KI-Muster: ai-text-pattern-review und humanizer. Rechtschreibung: proofread-audit."
 license: MIT
 metadata:
   version: 0.2.1
