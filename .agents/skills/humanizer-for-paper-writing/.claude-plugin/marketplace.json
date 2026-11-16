@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "humanizer-for-paper-writing",
+  "owner": {
+    "name": "blader",
+    "url": "https://github.com/blader"
+  },
+  "description": "The humanizer skill with an added technical writing style guide, installable as a Claude Code plugin. Fork of blader/humanizer.",
+  "plugins": [
+    {
+      "name": "humanizer-for-paper-writing",
+      "source": "./",
+      "description": "Remove signs of AI-generated writing from text, and apply technical writing house style to research documents. Fork of blader/humanizer.",
+      "license": "MIT",
+      "keywords": [
+        "writing",
+        "editing",
+        "ai-detection",
+        "humanize",
+        "prose",
+        "style",
+        "technical-writing",
+        "academic"
+      ]
+    }
+  ]
+}

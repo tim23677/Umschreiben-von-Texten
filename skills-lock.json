@@ -1,0 +1,137 @@
+{
+  "version": 2,
+  "skills": {
+    "abbrevia": {
+      "source": "iamursky/sokrati",
+      "sourceType": "github",
+      "skillPath": "skills/abbrevia/SKILL.md",
+      "computedHash": "a849c326dc0ec448a35df51a58e28d51d97443a62c8c5512f94b900e33598052"
+    },
+    "abrege": {
+      "source": "iamursky/sokrati",
+      "sourceType": "github",
+      "skillPath": "skills/abrege/SKILL.md",
+      "computedHash": "ddfc71de497e3721f1e21a85a69567333b43352a462961547399395c6bf06417"
+    },
+    "abrevia": {
+      "source": "iamursky/sokrati",
+      "sourceType": "github",
+      "skillPath": "skills/abrevia/SKILL.md",
+      "computedHash": "a34763e5df0c3bc9d653078c919db20f9d817a8a02a16e3d986c40c4c9a62bb6"
+    },
+    "academic-writing": {
+      "source": "David-Saeteros/claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/academic-writing/SKILL.md",
+      "computedHash": "f46b93b82fe84dec7b539f730c8831f4cee2490f48add9cfc0bceb7d9030a396"
+    },
+    "critique": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "draft/skills/critique/SKILL.md",
+      "computedHash": "47b43b69f7a1f7c3bd9a31b92d642fe9e3e2fcef36cb34cafd3a8688b697d9b0"
+    },
+    "data-analysis-companion": {
+      "source": "David-Saeteros/claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/data-analysis-companion/SKILL.md",
+      "computedHash": "a7ac436e73e93c74049ab5fc5bde5ef1199dee948cf4c7441becbc80c267b26b"
+    },
+    "escurca": {
+      "source": "iamursky/sokrati",
+      "sourceType": "github",
+      "skillPath": "skills/escurca/SKILL.md",
+      "computedHash": "3b19fd54b4910cc696938565a1514cd74bfcb840f227ad5c8880ce6fe07fe788"
+    },
+    "humanize": {
+      "source": "ameenmo/humanize-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "97a0bfc35c6122d632e2fad6d1404b5e4b98e720603c859ee9440ee1fcd90d20"
+    },
+    "humanize-writing": {
+      "source": "jpeggdev/humanize-writing",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "53a7e80438d56d64e2e1c42d6a4a9fd274aed21244d1b7380a974d1897317686"
+    },
+    "humanizer": {
+      "source": "Aboudjem/humanizer-skill",
+      "sourceType": "github",
+      "skillPath": "skills/humanizer/SKILL.md",
+      "computedHash": "cece40dcbcfbb299673fc3aa64928ba37a567cc12acd675f5ed896a81a2961e0"
+    },
+    "humanizer-for-paper-writing": {
+      "source": "CurryTang/humanizer-for-paper-writing",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "2bc8e12862ca5af8cc876f6274881d45fc98e7ffab892cbe561e7085821698df"
+    },
+    "humanizer-skill": {
+      "source": "rockyandtom/humanizer-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "01f23e4ff35687cc867f2c1ca90cbb6f23d49dff1e8b45994b7df657e5c1604c"
+    },
+    "kuerzen": {
+      "source": "iamursky/sokrati",
+      "sourceType": "github",
+      "skillPath": "skills/kuerzen/SKILL.md",
+      "computedHash": "77ad0adc1f3b7d0f733da044d5f2e65c4b1361d81f8cfe501f164b6ea82e7c11"
+    },
+    "page-one-meeting": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "pitch/skills/page-one-meeting/SKILL.md",
+      "computedHash": "ffee35e905a2255cc5897cde1219bbb0abb8967730cd2ff846025afe0c76b856"
+    },
+    "paper-companion": {
+      "source": "David-Saeteros/claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/paper-companion/SKILL.md",
+      "computedHash": "87f6fb7ee18207de7b4548a7aa949c13fc19b3cba46470a8220caba1072a1dcc"
+    },
+    "sharpen": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "pitch/skills/sharpen/SKILL.md",
+      "computedHash": "d52c7a572272f2fc5b2cb9d17565fe7cbca9cda9075b96d5160b7d6feda83d7e"
+    },
+    "shorten": {
+      "source": "iamursky/sokrati",
+      "sourceType": "github",
+      "skillPath": "skills/shorten/SKILL.md",
+      "computedHash": "c3f229d1f8690cbfabcaa448b334fa8879aa1c22e0a6ba0d00c3241b824c852e"
+    },
+    "skeleton": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "draft/skills/skeleton/SKILL.md",
+      "computedHash": "e12870a14813beeecc998af75d5fb521b45c375cf7234649b829ab6c4205b400"
+    },
+    "sokrati": {
+      "source": "iamursky/sokrati",
+      "sourceType": "github",
+      "skillPath": "skills/sokrati/SKILL.md",
+      "computedHash": "5e2dc6f6a3bf6c7abb4808c3b1de2ecee8b77220de200f2dbc75ade3e7add0a0"
+    },
+    "tighten": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "draft/skills/tighten/SKILL.md",
+      "computedHash": "ea5c8f082167f39728dbb3de8377c652862fc4ede527e493a624bad16079a1c8"
+    },
+    "weekly-research-digest": {
+      "source": "David-Saeteros/claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/weekly-research-digest/SKILL.md",
+      "computedHash": "35ea03658e67f894c4802379d1ffaaa5c59fd796e3572099990db2e65504d995"
+    },
+    "write": {
+      "source": "benjaminjackson/writing-skills",
+      "sourceType": "github",
+      "skillPath": "documentation/skills/write/SKILL.md",
+      "computedHash": "9c9d2b6b207bf9e9adcba7a26b6be089949af9731d1e593305f45508d130b4b3"
+    }
+  }
+}
